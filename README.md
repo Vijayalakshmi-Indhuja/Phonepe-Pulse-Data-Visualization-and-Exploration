@@ -86,7 +86,7 @@ To modify the app, you can:
 
 ## Streamlit web URL
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://phonepe-pulse.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](http://localhost:8501/)
 
 ## Disclaimer
 
