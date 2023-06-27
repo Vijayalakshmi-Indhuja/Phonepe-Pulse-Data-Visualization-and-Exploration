@@ -83,34 +83,34 @@ add_vertical_space(2)
 
 st_player(url = "https://www.youtube.com/watch?v=c_1H6vivsiA", height = 480)
 
-add_vertical_space(2)
+#add_vertical_space(2)
 
-st.image('Related Images and Videos/1.png')
+#st.image('Related Images and Videos/1.png')
 
-add_vertical_space(2)
+#add_vertical_space(2)
 
-col1, col2, col3 = st.columns(3)
+#col1, col2, col3 = st.columns(3)
 
-total_reg_users = top_user_dist_df['Registered_users'].sum()
-col1.metric(
-            label = 'Total Registered Users',
-            value = '{:.2f} Cr'.format(total_reg_users/100000000),
-            delta = 'Forward Trend'
-            )
+#total_reg_users = top_user_dist_df['Registered_users'].sum()
+#col1.metric(
+ #           label = 'Total Registered Users',
+  #          value = '{:.2f} Cr'.format(total_reg_users/100000000),
+   #         delta = 'Forward Trend'
+    #        )
 
-total_app_opens = map_user_df['App_opens'].sum()
-col2.metric(
-            label = 'Total App Opens', value = '{:.2f} Cr'.format(total_app_opens/100000000),
-            delta = 'Forward Trend'
-            )
+#total_app_opens = map_user_df['App_opens'].sum()
+#col2.metric(
+ #           label = 'Total App Opens', value = '{:.2f} Cr'.format(total_app_opens/100000000),
+  #          delta = 'Forward Trend'
+   #         )
 
-col3.metric(label = 'Total Transaction Count', value = '2000 Cr +', delta = 'Forward Trend')
+#col3.metric(label = 'Total Transaction Count', value = '2000 Cr +', delta = 'Forward Trend')
 
-style_metric_cards(background_color='200329')
+#style_metric_cards(background_color='200329')
 
-add_vertical_space(2)
+#add_vertical_space(2)
 
-st.image('Related Images and Videos/Pulse.gif', use_column_width = True)
+#st.image('Related Images and Videos/Pulse.gif', use_column_width = True)
 
 add_vertical_space(2)
 
